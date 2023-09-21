@@ -1,13 +1,20 @@
-import React from 'react';
-import AccordionItem from './AccordionItem';
+import React from "react";
+import AccordionItem from "./AccordionItem";
 
 const AccodionMenu = () => {
   return (
     <>
-    <div>AccodionMenu</div>
-   <AccordionItem />
-    </>
-  )
-}
+      <div className="accordion--menu  flex flex-col justify-center items-center py-[50px] px-[30px] rounded-2xl border border-gray-300 shadow-md w-auto">
+        <h1 className="flex items-center justify-center w-[600px] text-[#2f80ed] text-2xl	font-medium	">
+          Accordion with REACT and TAILWIND
+        </h1>
 
-export default AccodionMenu
+        <div className="accordion--items text-center">
+          <AccordionItem />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default AccodionMenu;
