@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import AccordionItem from './AccordionItem';
 
 const AccodionMenu = () => {
   return (
+    <>
     <div>AccodionMenu</div>
+   <AccordionItem />
+    </>
   )
 }
 
