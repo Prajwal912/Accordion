@@ -9,7 +9,7 @@ const AccodionMenu = () => {
           Accordion with REACT and TAILWIND
         </h1>
 
-        <div className="accordion--items text-center">
+        <div className="accordion--items flex flex-col items-start pt-5 gap-[15px]">
           <AccordionItem />
         </div>
       </div>
