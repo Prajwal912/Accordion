@@ -5,7 +5,7 @@ const AccodionMenu = () => {
   return (
     <>
       <div className="accordion--menu  flex flex-col justify-center items-center py-[50px] px-[30px] rounded-2xl border border-gray-300 shadow-md w-auto">
-        <h1 className="flex items-center justify-center w-[600px] text-[#2f80ed] text-2xl	font-medium	">
+        <h1 className="flex items-center justify-center w-[600px] text-[#2f80ed] text-2xl font-medium">
           Accordion with REACT and TAILWIND
         </h1>
 
