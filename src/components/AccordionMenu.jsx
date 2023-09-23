@@ -10,7 +10,24 @@ const AccodionMenu = () => {
         </h1>
 
         <div className="accordion--items flex flex-col items-start pt-5 gap-[15px]">
-          <AccordionItem />
+        <AccordionItem
+          title="Accordion #1"
+          content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. first!!"
+        />
+        <AccordionItem
+          title="Accordion #2"
+          content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. second!!"
+        />
+        <AccordionItem
+          title="Accordion #3"
+          content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. third!!"
+        />
+        <AccordionItem
+          title="Accordion #4"
+          content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. fourth!!"
+        />
+
+          
         </div>
       </div>
     </>
