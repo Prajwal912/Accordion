@@ -1,0 +1,17 @@
+.accordion--item{
+    background-color: white;
+    transition: 0.25s background-color;
+}
+
+.active{
+    background-color: #f2f8fe;
+}
+
+.accordion--content{
+    transition: 0.5s max-height, 0.5s margin;
+}
+
+.accordion--content.active{
+    max-height: 2rem;
+    margin: 1rem 0;
+}
